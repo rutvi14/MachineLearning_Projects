@@ -20,6 +20,7 @@ class DataTransformation:
         self.data_transformation_config = DataTransformationConfig()
     
     def get_data_transformer_object(self):
+        # sourcery skip: inline-immediately-returned-variable
         """This function performs data transformation.
 
         Raises:
